@@ -1,0 +1,12 @@
+[0:v]scale=3840:2160:flags=lanczos,zoompan=z='1.012+0.018*on/239':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=240:s=1920x1080:fps=30,setsar=1,format=yuv420p,settb=AVTB,setpts=PTS-STARTPTS ,fade=t=in:st=0:d=0.65[s0];
+[1:v]scale=3840:2160:flags=lanczos,zoompan=z='1.030-0.018*on/239':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=240:s=1920x1080:fps=30,setsar=1,format=yuv420p,settb=AVTB,setpts=PTS-STARTPTS[s1];
+[2:v]scale=3840:2160:flags=lanczos,zoompan=z='1.010+0.020*on/239':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=240:s=1920x1080:fps=30,setsar=1,format=yuv420p,settb=AVTB,setpts=PTS-STARTPTS[s2];
+[3:v]scale=3840:2160:flags=lanczos,zoompan=z='1.010+0.020*on/239':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=240:s=1920x1080:fps=30,setsar=1,format=yuv420p,settb=AVTB,setpts=PTS-STARTPTS[s3];
+[4:v]setsar=1,format=yuv420p,settb=AVTB,setpts=PTS-STARTPTS[endbg];
+[5:v]scale=128:128:flags=lanczos,format=rgba[icon];
+[endbg][icon]overlay=x=896:y=242:eof_action=repeat:shortest=0,drawtext=fontfile='C\:/Windows/Fonts/msyhbd.ttc':text='Steam Shelf':fontsize=72:fontcolor=white:x=(w-text_w)/2:y=413,drawtext=fontfile='C\:/Windows/Fonts/msyhbd.ttc':text='把热爱，留在眼前。':fontsize=40:fontcolor=0xDCEAF6:x=(w-text_w)/2:y=530,drawtext=fontfile='C\:/Windows/Fonts/msyh.ttc':text='Windows 桌面应用':fontsize=25:fontcolor=0xA8BFD5:x=(w-text_w)/2:y=612,drawbox=x=830:y=683:w=260:h=3:color=0x66C0F4:t=fill[end];
+[s0][s1]xfade=transition=fade:duration=0.75:offset=7.25[x1];
+[x1][s2]xfade=transition=fade:duration=0.75:offset=14.5[x2];
+[x2][s3]xfade=transition=fade:duration=0.75:offset=21.75[x3];
+[x3][end]xfade=transition=fade:duration=1:offset=28.75,fade=t=out:st=32.35:d=0.65,drawbox=x=0:y=970:w=1920:h=110:color=0x111A26@0.40:t=fill:enable='between(t,0.7,28.3)',subtitles=filename='source/subtitles.ass'[video];
+[6:a]loudnorm=I=-20:TP=-1.5:LRA=8,afade=t=in:st=0:d=0.4,afade=t=out:st=31.1:d=1.9[audio]

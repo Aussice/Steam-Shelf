@@ -1,0 +1,7 @@
+{
+  "games": [
+    { "appid": 620, "name": "Portal 2", "genre": "解谜探索" },
+    { "appid": 1145360, "name": "Hades", "genre": "独立游戏" },
+    { "appid": 413150, "name": "Stardew Valley", "genre": "休闲模拟" }
+  ]
+}

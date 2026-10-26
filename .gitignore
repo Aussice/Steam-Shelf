@@ -1,0 +1,20 @@
+node_modules/
+dist/
+release/
+.env*
+*.log
+
+# Local browser/Electron profiles can contain personal library data and caches.
+qa/runtime*/
+qa/*.png
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Download archives and generated distribution bundles are reproducible.
+*.zip
+marketing/**/video/
+marketing/**/*.wav
+marketing/**/source/screenshot-*.png
+marketing/**/source/video-info.json

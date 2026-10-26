@@ -1,0 +1,17 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Caption,Microsoft YaHei,34,&H00F5F8FF,&H000000FF,&H001A140F,&H80000000,0,0,0,0,100,100,0,0,1,2.2,1,2,80,80,42,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.80,0:00:06.70,Caption,,0,0,0,,{\fad(180,180)}把 Steam 游戏库，变成你的 3D 收藏书架。
+Dialogue: 0,0:00:07.85,0:00:14.00,Caption,,0,0,0,,{\fad(180,180)}已安装与未安装游戏，一起陈列。
+Dialogue: 0,0:00:15.10,0:00:21.10,Caption,,0,0,0,,{\fad(180,180)}抽出游戏盒，360° 查看封面、盒脊与背面。
+Dialogue: 0,0:00:22.40,0:00:28.10,Caption,,0,0,0,,{\fad(180,180)}胡桃木氛围与自由布置，手柄和奖杯也能 360° 查看。

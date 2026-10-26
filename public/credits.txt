@@ -1,0 +1,23 @@
+Steam Shelf - asset credits
+
+PS5 Controller (DualSense) - Taohid Animation
+Creator: https://sketchfab.com/taohidanimation
+Original model: https://sketchfab.com/3d-models/ps5-controller-b7bb9c5102a04cb0b1966c6d02bad7d6
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+GLB distribution mirror: https://github.com/Manav-Sonawane/Playstation-Revamp/blob/dcd20aabd063b2c20de1edfecb886be9d84def9c/public/ps5_controller.glb
+Changes: display size/orientation, shadow and environment reflection settings.
+Original geometry, embedded textures, materials and attribution are retained.
+PlayStation and DualSense are trademarks of Sony Interactive Entertainment.
+
+Room material maps - Poly Haven - CC0
+Painted Plaster Wall (Amal Kumar), Blue Metal Plate (Rob Tuytel),
+Smoked Walnut Veneer (Jenelle van Heerden), Concrete Floor Worn 001
+(Dimitrios Savva and Rico Cilliers).
+
+Steam logo: original Valve SVG, https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg
+Copyright 2026 Valve Corporation. Steam and the Steam logo are trademarks
+and/or registered trademarks of Valve Corporation in the U.S. and other countries.
+Steam Shelf is an independent personal application, not a Valve product.
+
+Steam Shelf application icon: original vector shelf/books glyph.
